@@ -1,0 +1,31 @@
+.one{
+    background-image: url(Нарезка/Shape\ 1.png);
+}
+.two{
+    background-image: url(Нарезка/Layer\ 20.png);
+    background-image: url(Нарезка/Layer\ 22.png);
+
+}
+.three{
+    background-image: url(Нарезка/Shape\ 1\ copy\ 2.png);
+}
+.tr
+{
+    background-image: url(Нарезка/Rectangle\ 1.png);
+    border: none;
+}
+.tr2{
+    background-image: url(Нарезка/Rectangle\ 1\ copy.png);
+    border: none;
+}
+.tr3{
+    background-image:url(Нарезка/Shape\ 3\ copy\ 35.png);
+    border: none;
+    
+}
+.carousel-item{
+    height: 600px;
+}
+.carousel-item img{
+    height: 600px;
+}
