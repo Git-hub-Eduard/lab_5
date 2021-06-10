@@ -1,10 +1,75 @@
+*  {    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.input-field {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #f1f1f1;
+    border: none;
+    height: 30px;
+    padding-left: 10px;
+    outline:none;
+    color: #585858;
+    font-weight: 500;
+}
+.description {
+    margin-top: -15px;
+    margin-bottom: 30px;
+    color: #335565;
+    font-weight: 450;
+}
+.input-message {
+    height: 106px;
+    padding-top: 5px;
+    resize: none;
+}
+.form-button {
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    background-color: #3674ba;
+    color: #fff;
+    font-size: 14px;
+    right: 0;
+    bottom: 5px;
+}
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.form {
+    position: relative;
+}
+.map {
+    
+    position: relative;
+}
+
+.mark {
+    position: absolute;
+    top: 75px;
+    left: 200px;
+    background: none ! important
+}
 .one{
     background-image: url(Нарезка/Shape\ 1.png);
 }
 .two{
-    background-image: url(Нарезка/Layer\ 20.png);
+    width: 100%;
     background-image: url(Нарезка/Layer\ 22.png);
-
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    
 }
 .three{
     background-image: url(Нарезка/Shape\ 1\ copy\ 2.png);
@@ -23,9 +88,100 @@
     border: none;
     
 }
+.line
+{
+    width: 225px;
+    height: 1px;
+    background-color: #5b6169;
+}
+.title 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
 .carousel-item{
     height: 600px;
 }
 .carousel-item img{
     height: 600px;
+}
+img
+{
+    max-width: 100%;
+}
+.Skill-Area {
+    z-index: 1;
+    float: left;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+.Skill-HTML, .Skill-CSS, .Skill-Photoshop, .Skill-Design {
+    background-color: #3674ba;
+    position: absolute;
+    height: 30px;
+}
+.SkillBar {
+    height: 30px;
+    position: relative;
+    background: #828181;
+    margin: 10px auto;
+}
+.skill-box {
+    text-transform: uppercase;
+}
+.Skills-Head {
+    color: #3674ba;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: -5px;
+}
+.Skill-HTML {
+    animation: Animate-HTML 5s;
+    width: 91%;
+}
+
+.Skill-CSS {
+    animation: Animate-CSS 5s;
+    width: 96%;
+}
+
+.Skill-Photoshop {
+    animation: Animate-PHOTOSHOP 5s;
+    width: 83%;
+}
+
+.Skill-Design {
+    animation: Animate-DESIGN 5s;
+    width: 80%;
+}
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 91%}
+}
+@keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 96%}
+}@keyframes Animate-PHOTOSHOP {
+    from {
+    width: 10px;
+}
+to {
+    width: 83%}
+}@keyframes Animate-DESIGN {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
 }
